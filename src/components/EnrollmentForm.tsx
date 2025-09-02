@@ -35,7 +35,7 @@ const EnrollmentForm: React.FC<EnrollmentFormProps> = ({ onBack }) => {
 
     setLoading(true);
     try {
-      const res = await fetch("https://shams-backend-ajrd.onrender.com/api/submit-form", {
+      const res = await fetch("https://shams-backende.onrender.com", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify(formData),
