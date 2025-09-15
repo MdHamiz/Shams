@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, BookOpen, Star, GraduationCap, Trophy, Users, Mail, Phone, Calendar, Target, Medal, Crown } from 'lucide-react';
+import {  BookOpen, Star,Users, Crown } from 'lucide-react';
 
 const FacultyPage: React.FC = () => {
   const facultyMembers = [
@@ -186,21 +186,21 @@ const FacultyPage: React.FC = () => {
 
   const testimonials = [
     {
-      student: "Arjun Mehta",
-      rank: "JEE Advanced AIR 67",
-      teacher: "Dr. Rajesh Gupta",
+      student: "Ankit Kumar",
+      //rank: "",
+      teacher: "Mr.Saman Abbas ",
       quote: "Sir's teaching methodology made complex calculus problems seem simple. His dedication is unmatched."
     },
     {
-      student: "Kavya Reddy",
-      rank: "NEET AIR 89",
-      teacher: "Prof. Meera Singh",
+      student: "Naaz Perween",
+      //rank: "",
+      teacher: "Ms.Gulafshan",
       quote: "Ma'am's biology classes were so engaging. She made every concept crystal clear with practical examples."
     },
     {
-      student: "Rohit Sharma",
-      rank: "JEE Main AIR 156",
-      teacher: "Dr. Priya Sharma",
+      student: "Rukshar Fatima",
+      //rank: "",
+      teacher: "Er.Md Sameer",
       quote: "Physics became my favorite subject after joining Dr. Sharma's classes. Her explanations are phenomenal."
     }
   ];
